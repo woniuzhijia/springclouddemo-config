@@ -9,7 +9,7 @@ server:
 spring:
   profile: dev   #本地访问的配置项
   application:
-      name: springcloudDemo-config-client #本次启动后先去找3344号服务，通过springcloudconfig获取github服务地址
+      name: springclouddemo-config-client #本次启动后先去找3344号服务，通过springcloudconfig获取github服务地址
 
 eureka:
   instance:
@@ -27,7 +27,7 @@ server:
 spring:
   profile: test   #本地访问的配置项
   application:
-      name: springcloudDemo-config-client #本次启动后先去找3344号服务，通过springcloudconfig获取github服务地址
+      name: springclouddemo-config-client #本次启动后先去找3344号服务，通过springcloudconfig获取github服务地址
 
 eureka:
   instance:
