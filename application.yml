@@ -6,10 +6,10 @@ spring:
 spring: 
   profiles: dev #开发环境
   application: 
-    name: springclouddemo-config-lee-dev
+    name: springclouddemo-config-dev
 --- 
 spring: 
   profiles: test #测试环境
   application: 
-    name: springclouddemo-config-lee-test
+    name: springclouddemo-config-test
 #请保存为UTF8格式
